@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cccb027942.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <title>Louay Oudi | Contact</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav-button">
+          <button>
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links">
+          <a href="/about.html">ABOUT</a>
+          <a href="/projects.html">PROJECTS</a>
+          <a href="/contact.html">CONTACT</a>
+        </div>
+        <div class="logo">
+          <a href="/index.html">
+            <img src="img/logo.svg" alt="logo" />
+            <h3>LOUAY OUDI</h3>
+          </a>
+        </div>
+      </nav>
+      <div class="mobile-links">
+        <a href="/about.html">ABOUT</a>
+        <a href="/projects.html">PROJECTS</a>
+        <a href="/contact.html">CONTACT</a>
+      </div>
+      <div class="sub-container" data-router-wrapper="contact">
+      <div class="contact-content" data-router-view="contact" >
+          <div class="contact-info">
+            <h1 data-aos="fade-right" data-aos-duration="700">CONTACT ME</h1>
+            <div class="contact">
+              <i
+                class="far fa-envelope"
+                data-aos="zoom-in-right"
+                data-aos-delay="500"
+                data-aos-duration="700"
+              ></i>
+              <p data-aos="zoom-in-left" data-aos-delay="700">
+                louayinfo07@gmail.com
+              </p>
+            </div>
+            <div class="contact">
+              <i
+                class="fas fa-phone-alt"
+                data-aos-delay="500"
+                data-aos="zoom-in-right"
+                data-aos-duration="700"
+              ></i>
+              <p data-aos="zoom-in-left" data-aos-delay="700">
+                +216 55 547 161
+              </p>
+            </div>
+            <div class="contact">
+              <i
+                class="fas fa-map-marker-alt"
+                data-aos-delay="500"
+                data-aos="zoom-in-right"
+                data-aos-duration="700"
+              ></i>
+              <p data-aos="zoom-in-left" data-aos-delay="700">
+                Gabes, Tunisia
+              </p>
+            </div>
+          </div>
+          <div
+            class="contact-form"
+            data-aos="zoom-in"
+            data-aos-delay="1000"
+            data-aos-duration="700"
+          >
+            <form name="contact" method="POST" data-netlify="true">
+              <input name="Email" type="email" placeholder="Email" required/>
+              <input name="Name" type="text" placeholder="Name" required/>
+              <textarea
+                type="text"
+                rows="10"
+                cols="50"
+                placeholder="Message"
+                name="Message"
+                required
+              ></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div class="socials">
+            <a
+              href="https://www.facebook.com/louay.oudi/"
+              target="_blank"
+              data-aos="zoom-in-left"
+              data-aos-delay="100"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/oudi_sw/"
+              target="_blank"
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://github.com/Maokli"
+              target="_blank"
+              data-aos="zoom-in-left"
+              data-aos-delay="500"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

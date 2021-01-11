@@ -1,0 +1,202 @@
+*{
+  
+  transition: all .5s;
+}
+
+body{
+  overflow: auto !important;
+}
+.links {
+  display: none;
+}
+.mobile-links {
+  
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  max-height: 0;
+}
+.mobile-links a {
+  text-align: center;
+  border-bottom: 1px solid #ffff;
+}
+nav button {
+  display: block;
+}
+
+/* Introduction Mobile */
+.introduction{
+  width: 100vw;
+  display: flexbox;
+}
+.introduction h1{
+  margin-top: .5em;
+  margin-left: 1em;
+  text-align: left;
+  font-weight:50;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 10px;
+  font-size: 55px;
+}
+
+.introduction p{
+  width: 100%;
+  font-weight: lighter;
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 0;
+  margin-top: 1em;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.introduction #see-work-btn{
+  display: none;
+}
+
+.socials {
+  display: none;
+}
+.my-image {
+  display: none;
+}
+.introduction .work-highlight {
+  display: flex;
+  flex-direction: column;
+  margin: 0em;
+  margin-top: 4em;
+  align-self: center;
+  width: 100%;
+}
+.introduction .work-highlight .heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.introduction .work-highlight .heading p{
+  opacity: 1;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  width: 100%;
+  margin-top: 0;
+}
+.introduction .work-highlight .heading a {
+  text-decoration: none;
+  color: #FC0E49;
+  font-size: 1.2em;
+  margin-left: 5em;
+  height: 50%;
+  width: 100%;
+}
+.introduction .work-highlight .carousel{
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.introduction .work-highlight .carousel .scroll-space {
+  min-width: 5vw;
+  height: 10vh;
+}
+@media only screen and (device-width: 414px) and
+ (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
+  .introduction .work-highlight .carousel .scroll-space {
+    min-width: 1vw;
+  }
+  }
+.introduction .work-highlight .carousel .project{
+  height: 35vh;
+  min-width: 50vw;
+  display: block;
+  background-color: aqua;
+  border-radius: 20px;
+  margin: 1em;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+}
+.introduction .work-highlight .carousel .project img{
+  height: 110%;
+  border-radius: 10px;
+  margin-right: 1em;
+}
+
+/* About Me Mobile */
+
+.sub-container .about-me{
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.about-me .text{
+  padding-left: 0;
+  padding: 1em;
+}
+.about-me .text p {
+  margin-top: 1em;
+}
+.about-me .text .skills .skill{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.about-me .text .skills .skill p{
+  width: 80vw;
+  margin-top: 0;
+  text-align: center;
+}
+.about-me .text .skills .skill .level{
+  margin-top: 0;
+}
+.about-me .text .skills .skill .level .empty-rectangle {
+  position: absolute;
+  width: 80vw;
+  height: 5px;
+  background-color: rgb(107, 107, 107);
+  border-radius: 10px;
+}
+.about-me .text .skill .level .details button {
+  left: 83vw;
+}
+.about-me .text .skill .level .details .description{
+  width: 80vw;
+}
+.image {
+  display: none;
+}
+
+/* Contact Me Mobile */
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.contact-content .contact-form form{
+  width: 80vw;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  position:static;
+  align-self: center;
+  justify-content: space-between;
+}
+.socials a:first-of-type{
+  padding-top: 0;
+  padding: .5em 1em;
+}
+.socials a{
+  font-size: 2em;
+  padding: .5em 1em;
+  margin-bottom: .5em;
+}
+.socials a:hover{
+  font-size: 2em;
+  transition: all 1s !important;
+}

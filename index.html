@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cccb027942.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <title>Louay Oudi | Home</title>
+  </head>
+
+  <body >
+    <div class="container">
+      <nav>
+        <div class="nav-button">
+          <button>
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links">
+          <a href="/about.html">ABOUT</a>
+          <a href="/projects.html">PROJECTS</a>
+          <a href="/contact.html">CONTACT</a>
+        </div>
+        <div class="logo">
+          <a href="/index.html">
+            <img src="img/logo.svg" alt="logo"/>
+            <h3>LOUAY OUDI</h3>
+          </a>
+        </div>
+      </nav>
+      <div class="mobile-links">
+        <a href="/about.html">ABOUT</a>
+        <a href="/projects.html">PROJECTS</a>
+        <a href="/contact.html">CONTACT</a>
+      </div>
+      <div class="sub-container" data-router-wrapper="home" >
+      <div class="landing-content" data-router-view="home">
+          <div class="introduction">
+            <h1></h1>
+            <p></p>
+            <p id="developper"></p>
+            <a id="see-work-btn"
+              href="/projects.html"
+              data-aos="fade-up"
+              data-aos-delay="2500"
+              data-aos-duration="3000"
+            >
+              See My Work!
+            </a>
+            
+          <div class="work-highlight"
+              data-aos="fade-zoom-in"
+              data-aos-delay="2500"
+              data-aos-duration="1000">
+            <div class="heading">
+              <p>My Work</p>
+              <a href="projects.html">-View All</a>
+            </div>
+            <div class="carousel">
+              <div class="scroll-space"></div>
+            </div>
+          </div>
+          </div>
+          <div class="my-image" data-aos="fade-left" data-aos-duration="2000">
+            <img id="me" src="/img/myPhoto-low.png" alt="me"
+            srcset="/img/myPhoto-medium.png 2x,
+                    /img/myPhoto-high.png 4x">
+            <img id="bg" src="/img/shape.png" alt="shape">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script data-no-reload type="module" src="./scripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" [data-no-reload] />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cccb027942.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <title>Louay Oudi | About</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav-button">
+          <button>
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="links">
+          <a href="/about.html">ABOUT</a>
+          <a href="/projects.html">PROJECTS</a>
+          <a href="/contact.html">CONTACT</a>
+        </div>
+        <div class="logo">
+          <a href="/index.html">
+            <img src="img/logo.svg" alt="logo" />
+            <h3>LOUAY OUDI</h3>
+          </a>
+        </div>
+      </nav>
+      <div class="mobile-links">
+        <a href="/about.html">ABOUT</a>
+        <a href="/projects.html">PROJECTS</a>
+        <a href="/contact.html">CONTACT</a>
+      </div>
+      
+      <div class="sub-container" data-router-wrapper="about" >
+      <div class="about-me" data-router-view="about">
+          <div class="text">
+            <h1 data-aos="fade-right" data-aos-duration="500">ABOUT ME</h1>
+            <p
+              data-aos="fade-zoom-in"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
+            I am Louay Oudi, a self taught full-stack developer based in Tunisia.
+             My hunger for knowledge pushed me to this programming path and
+              I fell in love with it, I am a smart hustler, a problem solver
+               and a team worker, passionate about progress and a productivity addict,
+                I'm a fan of Calisthenics and indoor activities that's why remote
+                 employment is preferred.
+            Will happily work on ambitious projects with positive people
+            </p>
+            <div
+              data-aos="zoom-in"
+              data-aos-delay="1000"
+              data-aos-duration="1000"
+              class="skills"
+            >
+              <div id="html" class="skill">
+                <div class="level">
+                  <div class="empty-rectangle"></div>
+                  <div class="full-rectangle"></div>
+                  <div class="details">
+                    <button>
+                      <i class="fas fa-caret-square-down"></i>
+                    </button>
+                    <div class="description">
+                      <p>I know all the necessary Html 5 practices and tags to create
+                        SEO friendly websites and to maximize business growth.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>HTML</p>
+              </div>
+              <div id="css" class="skill">
+                <div class="level">
+                  <div class="empty-rectangle"></div>
+                  <div class="full-rectangle"></div>
+                  <div class="details">
+                    <button>
+                      <i class="fas fa-caret-square-down"></i>
+                    </button>
+                    <div class="description">
+                      <p>Advanced understanding of CSS, enough that I created
+                        this website in pure CSS, I also know CSS libraries and extensions like 
+                        Sass, Bootstrap and Tailwind.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>CSS</p>
+              </div>
+              <div id="javascript" class="skill">
+                <div class="level">
+                  <div class="empty-rectangle"></div>
+                  <div class="full-rectangle"></div>
+                  <div class="details">
+                    <button>
+                      <i class="fas fa-caret-square-down"></i>
+                    </button>
+                    <div class="description">
+                      <p> Advanced understanding of Javascript, in fact this website was made
+                        using only Vanilla Javascript and no frameworks, I have decent understanding
+                        of Javascript OOP and Functional Programming also I know Es6+ best 
+                        practices and implementations. I also know how to utilize a wide variety of 
+                        Javascript libraries to make the development process faster.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>JAVASCRIPT</p>
+              </div>
+              <div id="angular" class="skill">
+                <div class="level">
+                  <div class="empty-rectangle"></div>
+                  <div class="full-rectangle"></div>
+                  <div class="details">
+                    <button>
+                      <i class="fas fa-caret-square-down"></i>
+                    </button>
+                    <div class="description">
+                      <p>Coming from a C# background, I learned Angular and fell in love with it, the
+                        OOP implementations were simular to what there is in .NET aswell as other 
+                        features, I can use Angular services, components and interceptors properly to 
+                        make an independant infrastructure, I also know how to optimize the user's 
+                        experience on an Angular app via implementing concepts and libraries like 
+                        Lazy Loading, Toastr and Loading Indicators.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>ANGULAR</p>
+              </div>
+              <div id="asp" class="skill">
+                <div class="level">
+                  <div class="empty-rectangle"></div>
+                  <div class="full-rectangle"></div>
+                  <div class="details">
+                    <button>
+                      <i class="fas fa-caret-square-down"></i>
+                    </button>
+                    <div class="description">
+                      <p>Being a loyal fan of .NET, I adore this technologie the most, I can 
+                        use Asp .NET 3 + to build REST APIs, I also use Asp .NET identity to
+                        implement Authentication and Authorization as well as OAuth integration,
+                        I use JWT to transfer claims between the Client and the Server, I also
+                        implement security concepts like Server Side Validation and Data transfer
+                        Objects, therefore creating a strong security barrier against hackers.
+                        I also got understanding of other Back-End technologies, like SignalR and Redis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <p>ASP .NET</p>
+              </div>
+            </div>
+          </div>
+          <div class="image" data-aos="fade-up" data-aos-duration="2000">
+            <img src="img/aboutMe.png" alt="me" srcset="" />
+          </div>
+        <script defer src="./scripts/app.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
