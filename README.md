@@ -1,5 +1,5 @@
 # My Portfolio
-This is my portfolio
+This is my portfolio. See the live version [here](https://louayoudi.netlify.app/)
 
 # Front-End
 I built this portfolio with html, css and vanilla js, no frameworks, however to make my life easier and the development process faster, I used quite a few libraries including:
