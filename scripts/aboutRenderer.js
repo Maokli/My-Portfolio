@@ -45,7 +45,7 @@ class AboutRenderer extends Highway.Renderer {
           button.addEventListener('click', ()=>{
             const description = level.querySelector('.description');
             if(isHidden){
-              description.style.maxHeight = '30vh';
+              description.style.maxHeight = '100vh';
               setTimeout(() => {
                 description.scrollIntoView({behavior: 'smooth', block: 'center'});
               },200)

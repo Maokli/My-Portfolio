@@ -6,9 +6,6 @@
   transition: all .5s;
   font-family: 'Roboto', sans-serif;
 }
-html {
-  scroll-behavior: smooth;
-}
 html::-webkit-scrollbar {
   display: none;
 }
