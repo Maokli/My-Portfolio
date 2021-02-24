@@ -1,6 +1,5 @@
 node_modules
 production
-dist
 .cache
 .vscode
 .env
