@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.2.1",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "gsap": "^3.6.0",
+    "storyblok-js-client": "^3.3.1",
+    "typed.js": "^2.0.11"
+  }
+}
