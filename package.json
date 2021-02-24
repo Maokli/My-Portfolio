@@ -9,5 +9,14 @@
     "gsap": "^3.6.0",
     "storyblok-js-client": "^3.3.1",
     "typed.js": "^2.0.11"
+  },
+  "scripts": {
+    "install aos": "npm install aos --save",
+    "install highway": "npm install @dogstudio/highway",
+    "install storyblok": "npm install storyblok-js-client",
+    "install gsap": "npm install gsap",
+    "install typed": "npm install typed.js",
+    "install axios": "npm install axios",
+    "build": "parcel build *"
   }
 }
