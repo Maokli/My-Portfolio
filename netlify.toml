@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/admin"
   to = "https://app.storyblok.com/#!/"
-  status = 200
+  status = 301
   force = true
